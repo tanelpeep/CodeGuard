@@ -1,0 +1,16 @@
+{
+  "tanelpeep":
+  {
+    "projects":
+    {
+      "cyptoping":
+      {
+        "url": "https://github.com/tanelpeep/CryptoPing.git"
+      },
+      "i244":
+      {
+        "url": "https://github.com/tanelpeep/I244"
+      }
+    }
+  }
+}

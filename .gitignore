@@ -1,0 +1,6 @@
+codeguard/conf
+codeguard/logs
+codeguard/projects
+codeguard/results
+.idea/
+*.iml
