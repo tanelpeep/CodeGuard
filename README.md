@@ -1,5 +1,7 @@
 # CodeGuard
 
+## Integration
+
 ### DefectDojo integration
 CodeGuard can be integrated with DefectDojo to send scan results to DefectDojo. 
  
