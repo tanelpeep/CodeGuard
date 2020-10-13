@@ -44,11 +44,6 @@ conf_path = codeguard_path + "conf/"
 codeguard_config_file = conf_path + "codeguard.conf"
 codeguard_repository_file = conf_path + "repository.json"
 
-# logging
-logging.basicConfig(format='%(asctime)s - [%(levelname)s] %(message)s', level=logging.INFO, filename=logs_path+"codeguard.log")
-logging.info('Started GodeGuard')
-
-
 # check for necessary folders
 if not os.path.exists(projects_path):
     os.makedirs(projects_path)
@@ -58,6 +53,13 @@ if not os.path.exists(logs_path):
     os.makedirs(logs_path)
 if not os.path.exists(conf_path):
     os.makedirs(conf_path)
+
+# logging
+logging.basicConfig(format='%(asctime)s - [%(levelname)s] %(message)s', level=logging.INFO, filename=logs_path+"codeguard.log")
+logging.info('Started GodeGuard')
+
+
+
 
 # check for required files
 if not os.path.exists(codeguard_config_file):
